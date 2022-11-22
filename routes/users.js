@@ -9,7 +9,7 @@ router.get('/', function(req, res, next) {
   res.render('users');
 });
 
-router.post('/', function (req, res, next) {
+router.post('/login', function (req, res, next) {
 
   var email = req.body.email;
   var password = req.body.password;
@@ -26,5 +26,14 @@ router.post('/', function (req, res, next) {
     }
   })
 })
+
+router.post('/registration', async function (req, res, next) {
+   const name = req.body.name
+   const email = req.body.email
+   const password = req.body.password
+
+   connection.getconnection
+})
+
 
 module.exports = router;

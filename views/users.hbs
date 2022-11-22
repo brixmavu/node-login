@@ -3,7 +3,7 @@
         <header class="page-header"></header>
         <main class="page-body">
             <div class="center">
-                <form id="login" action="/users" method="post">
+                <form id="login" action="/users/login" method="post">
                     <h1>Login</h1>
                     <p>
                         <label for="exampleInputEmail1">Email</label>
@@ -20,15 +20,15 @@
                 </form>
 
 
-                <form id="registration" action="/signup" method="post">
+                <form id="registration" action="/users/registration" method="post">
                     <h1>Registration</h1>
                     <p>
                         <label>First name</label><br>
                         <input type="text" name="first_name" required>
                     </p>
                     <p>
-                        <label>Phone number</label><br>
-                        <input type="tel" name="phone">
+                        <label>Email</label><br>
+                        <input type="email" name="email">
                     </p>
                     <p>
                         <label>Password</label><br>

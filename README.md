@@ -18,4 +18,4 @@ password: test
 
 ### To do
 
-Registration page to work
+Registration page

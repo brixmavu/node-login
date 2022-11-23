@@ -16,6 +16,3 @@ email: test@test.com
 
 password: test
 
-### To do
-
-Registration page
